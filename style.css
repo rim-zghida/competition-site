@@ -1,0 +1,94 @@
+@font-face {
+  font-family: ruhl-m;
+  src: url(./fonts/FrankRuhlLibre-Medium.ttf);
+}
+
+@font-face {
+  font-family: ruhl-l;
+  src: url(./fonts/FrankRuhlLibre-Regular.ttf);
+}
+
+@font-face {
+  font-family: greatvibes;
+  src: url(./fonts/GreatVibes-Regular.ttf);
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.main-head {
+  box-shadow: 0px 5px 5px rgba(20, 20, 20, 0.5);
+}
+.main-head nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(182, 156, 168);
+  position: fixed;
+}
+.main-head ul {
+  display: flex;
+  font-family: ruhl-l;
+
+  justify-content: flex-end;
+  list-style: none;
+}
+.main-head h1 {
+  font-size: 50px;
+  font-family: greatvibes;
+}
+.main-head a {
+
+  text-decoration: none;
+  padding: 3rem;
+  color: rgb(238, 234, 234);
+  cursor: grab;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-head a:hover{
+  background-color: rgb(153, 129, 153);
+  padding: 20px;
+}
+.hero-introduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(7, 7, 7, 0.5), transparent),
+    url("./3f1cad85867369c873919102a67e4237.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  padding-bottom: 10rem;
+  padding: 8rem;
+  
+}
+.hero-introduction h2 {
+padding: 20px;
+  font-size: 3rem;
+  font-family: ruhl-m;
+}
+.hero-introduction p {
+  font-size: 2.5rem;
+  color: rgb(221, 182, 182);
+  text-decoration: underline;
+  padding: 20px;
+
+}
+.hero-introduction a:hover {
+  
+  background-color: rgb(206, 168, 209);
+}
+.hero-introduction a{
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem; 
+}
+.hero-introduction button {
+  
+padding: 0.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+}

@@ -1,0 +1,56 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.login h5 {
+  position: absolute;
+  padding: 9.5rem;
+  font-style: italic;
+  text-decoration-line: overline;
+  font-size: 20px;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.application {
+   
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+background: 
+    url("./2aa8bf3fc39ca8910f1c004d2174e71d.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 4rem;
+  background-position: center;
+  text-transform: capitalize;
+
+}
+.application form {
+  padding: 2rem 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 2rem;
+  border: 5px solid black;
+
+  }
+.application input {
+  padding: 9px;
+  border-radius: 15px;
+}
+.application input[type=button]{
+    cursor: pointer;
+ border-radius: 30px;
+    background:rgb(112, 109, 109);;
+    color: rgb(19, 18, 18);
+ padding: 15px;
+
+}
+.application input:hover {
+    background-color: rgb(161, 160, 160);
+  }
